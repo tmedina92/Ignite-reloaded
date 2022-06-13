@@ -9,3 +9,13 @@
   align-items: flex-start;
 
 }
+
+@media (max-width: 767px) {
+  html {
+    font-size: 87.5%; /* regra de 3 para mudar para 14px, não usar px pq é valor bruto. */
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
